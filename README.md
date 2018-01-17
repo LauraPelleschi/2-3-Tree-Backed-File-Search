@@ -10,10 +10,10 @@ Example of how to use in utop:
 4)  run `make compile`
 5)  enter utop
 6)  run ` #use "engine.ml" ;; `
-7)  run ` let arbitrary_name = TreeEngine.index_of_dir "test1";; `
+7)  run ` let arbitrary_name = TreeEngine.index_of_dir "desired_folder_name";; `
 8)  create string list of words you do want included in ur search:     and_list
 9)  create string list of words you do not want included in ur search: not_list
-10) run `TreeEngine.and_not arbitrary_name arbitrary_name and_list not_list`
+10) run `TreeEngine.and_not arbitrary_name and_list not_list`
 11) enjoy association list mapping desired words to file names 
 
 Acknowledgements:
